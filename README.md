@@ -1,9 +1,7 @@
 # data_preprocessing_for_TPM
-Data preprocessing for TPM
+Chinese dataset preprocessing for TPM.
 
-**Note** This code for Chinese datasets.
-
-This code include two parts:
+**Note** This code for Chinese datasets and include two parts:
 * lda model training
 * write txt file to bin file
 
@@ -20,6 +18,7 @@ You can run `train_final_ldamodel(topic_number)` to get LDA model in the final t
 
 ## Write txt to bin
 This code is based on the [cnn-dailymail preprocessing](https://github.com/abisee/cnn-dailymail)
+
 **Note**
 * The article and abstarct are placed in different folders, and they are associated by the same file name.
 * We divide the dataset into three parts: all_train.txt, all_val.txt and all_test.txt. Each of the txt file contains a series of file name.
